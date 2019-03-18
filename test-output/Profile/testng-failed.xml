@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Profile]">
+  <test name="verify_AddressApi(failed)">
+    <classes>
+      <class name="test.modules.profile.AddressTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="verify_AddressApi"/>
+        </methods>
+      </class> <!-- test.modules.profile.AddressTest -->
+    </classes>
+  </test> <!-- verify_AddressApi(failed) -->
+</suite> <!-- Failed suite [Profile] -->

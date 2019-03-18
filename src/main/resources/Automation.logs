@@ -1,0 +1,121 @@
+16:39:24,238 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {s}->https://gatewayval.hrpassport.com:443
+16:39:24,254 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to gatewayval.hrpassport.com:443
+16:39:25,839 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+16:39:25,839 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+16:39:25,839 DEBUG org.apache.http.client.protocol.RequestTargetAuthentication<strong>{1}</strong>:80 - Target auth state: UNCHALLENGED
+16:39:25,839 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+16:39:25,839 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+16:39:25,839 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: POST /trinetAuth/services/v1.0/authentication/signon?realm=sw_hrp HTTP/1.1
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "POST /trinetAuth/services/v1.0/authentication/signon?realm=sw_hrp HTTP/1.1[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: application/json[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Length: 46[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: gatewayval.hrpassport.com:443[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+16:39:25,839 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> POST /trinetAuth/services/v1.0/authentication/signon?realm=sw_hrp HTTP/1.1
+16:39:25,839 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: application/json
+16:39:25,839 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Type: application/json; charset=UTF-8
+16:39:25,839 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Length: 46
+16:39:25,839 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: gatewayval.hrpassport.com:443
+16:39:25,855 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+16:39:25,855 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+16:39:25,855 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+16:39:25,855 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  >> "{"emplid":"00001140180","userpassword":"1234"}"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Date: Tue, 06 Feb 2018 11:11:57 GMT[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Server: Oracle-Application-Server-11g[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Length: 106[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "X-Powered-By: Servlet/3.0 JSP/2.2[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: Keep-Alive[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Type: application/json[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Language: en[\r][\n]"
+16:39:26,317 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+16:39:26,334 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 200 OK
+16:39:26,335 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 200 OK
+16:39:26,336 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Date: Tue, 06 Feb 2018 11:11:57 GMT
+16:39:26,339 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Server: Oracle-Application-Server-11g
+16:39:26,339 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Length: 106
+16:39:26,339 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << X-Powered-By: Servlet/3.0 JSP/2.2
+16:39:26,339 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Keep-Alive: timeout=5, max=100
+16:39:26,339 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: Keep-Alive
+16:39:26,339 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Type: application/json
+16:39:26,339 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Language: en
+16:39:26,339 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive for 5000 MILLISECONDS
+16:39:26,370 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json
+16:39:26,370 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:39:26,402 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "AQIC5wM2LY4SfcxDWi-IwuEJ8I7D06s1XvUs_uPR6D2J0Ws.*AAJTSQACMTAAAlNLABMxNjkwOTM4MTY1Nzc4MDYxNDE0AAJTMQACMDE.*"
+16:39:26,402 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@4e517165
+16:39:26,402 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:225 - Connection can be kept alive for 5000 MILLISECONDS
+16:39:26,433 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:161 - Get connection for route {s}->https://platformval.hrpassport.com:443
+16:39:26,434 DEBUG org.apache.http.impl.conn.DefaultClientConnectionOperator<strong>{1}</strong>:177 - Connecting to platformval.hrpassport.com:443
+16:39:27,802 DEBUG org.apache.http.client.protocol.RequestAddCookies<strong>{1}</strong>:123 - CookieSpec selected: ignoreCookies
+16:39:27,802 DEBUG org.apache.http.client.protocol.RequestAuthCache<strong>{1}</strong>:77 - Auth cache not set in the context
+16:39:27,802 DEBUG org.apache.http.client.protocol.RequestTargetAuthentication<strong>{1}</strong>:80 - Target auth state: UNCHALLENGED
+16:39:27,802 DEBUG org.apache.http.client.protocol.RequestProxyAuthentication<strong>{1}</strong>:89 - Proxy auth state: UNCHALLENGED
+16:39:27,802 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:682 - Attempt 1 to execute request
+16:39:27,802 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:274 - Sending request: PUT /api-profile/v1/identity/6P1/00001140180/names?realm=sw_hrp HTTP/1.1
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "PUT /api-profile/v1/identity/6P1/00001140180/names?realm=sw_hrp HTTP/1.1[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Cookie: TriNetAuthCookieVAL=AQIC5wM2LY4SfcxDWi-IwuEJ8I7D06s1XvUs_uPR6D2J0Ws.*AAJTSQACMTAAAlNLABMxNjkwOTM4MTY1Nzc4MDYxNDE0AAJTMQACMDE.*[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept: application/json[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Type: application/json; charset=UTF-8[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Content-Length: 355[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Host: platformval.hrpassport.com:443[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Connection: Keep-Alive[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "Accept-Encoding: gzip,deflate[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  >> "[\r][\n]"
+16:39:27,802 DEBUG org.apache.http.headers<strong>{1}</strong>:278 - >> PUT /api-profile/v1/identity/6P1/00001140180/names?realm=sw_hrp HTTP/1.1
+16:39:27,802 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Cookie: TriNetAuthCookieVAL=AQIC5wM2LY4SfcxDWi-IwuEJ8I7D06s1XvUs_uPR6D2J0Ws.*AAJTSQACMTAAAlNLABMxNjkwOTM4MTY1Nzc4MDYxNDE0AAJTMQACMDE.*
+16:39:27,802 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept: application/json
+16:39:27,818 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Type: application/json; charset=UTF-8
+16:39:27,818 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Content-Length: 355
+16:39:27,818 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Host: platformval.hrpassport.com:443
+16:39:27,818 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Connection: Keep-Alive
+16:39:27,818 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_151)
+16:39:27,818 DEBUG org.apache.http.headers<strong>{1}</strong>:281 - >> Accept-Encoding: gzip,deflate
+16:39:27,818 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  >> "{ "approvalStatus": "F", "effectiveDate": "2018-02-07", "employeeId": "00001140180", "endDate": "2099-12-31", "firstName": "Sri", "formOfAddress": "Mrs", "middleName": "Satya", "nameFormat": "US", "nameType": "PRF", "personTitle": null, "reasonChangeCode": null, "uniqueId": 12, "prevEffectiveDate": null, "lastName": "Ram", "suffix": "II", "name": null }"
+16:39:30,088 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "HTTP/1.1 200 OK[\r][\n]"
+16:39:30,088 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Date: Tue, 06 Feb 2018 11:09:26 GMT[\r][\n]"
+16:39:30,088 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Server: Apache-Coyote/1.1[\r][\n]"
+16:39:30,088 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Access-Control-Allow-Origin: *[\r][\n]"
+16:39:30,088 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Cache-Control: no-cache, no-store, max-age=0, must-revalidate[\r][\n]"
+16:39:30,088 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Pragma: no-cache[\r][\n]"
+16:39:30,088 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Expires: 0[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "X-XSS-Protection: 1; mode=block[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "X-Frame-Options: DENY[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "X-Content-Type-Options: nosniff[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Type: application/json;charset=UTF-8[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Vary: Accept-Encoding,User-Agent[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Encoding: gzip[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Content-Length: 135[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Keep-Alive: timeout=5, max=100[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "Connection: Keep-Alive[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.wire<strong>{1}</strong>:73 -  << "[\r][\n]"
+16:39:30,104 DEBUG org.apache.http.impl.conn.DefaultClientConnection<strong>{1}</strong>:259 - Receiving response: HTTP/1.1 200 OK
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:262 - << HTTP/1.1 200 OK
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Date: Tue, 06 Feb 2018 11:09:26 GMT
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Server: Apache-Coyote/1.1
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Access-Control-Allow-Origin: *
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Cache-Control: no-cache, no-store, max-age=0, must-revalidate
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Pragma: no-cache
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Expires: 0
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << X-XSS-Protection: 1; mode=block
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << X-Frame-Options: DENY
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << X-Content-Type-Options: nosniff
+16:39:30,104 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Type: application/json;charset=UTF-8
+16:39:30,119 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Vary: Accept-Encoding,User-Agent
+16:39:30,119 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Encoding: gzip
+16:39:30,119 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Content-Length: 135
+16:39:30,119 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Keep-Alive: timeout=5, max=100
+16:39:30,119 DEBUG org.apache.http.headers<strong>{1}</strong>:265 - << Connection: Keep-Alive
+16:39:30,119 DEBUG org.apache.http.impl.client.DefaultHttpClient<strong>{1}</strong>:509 - Connection can be kept alive for 5000 MILLISECONDS
+16:39:30,119 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:544 - Parsing response as: application/json;charset=UTF-8
+16:39:30,119 DEBUG org.apache.http.wire<strong>{1}</strong>:87 -  << "[0x1f][0x8b][0x8][0x0][0x0][0x0][0x0][0x0][0x0][0x3]E[0xcb][0xb1][0xe][0xc2]0[0xc]E[0xd1]_[0x89]<[0x13][0xc9][0x18][0x17]"[0xd6]N[0x8]![0x16][0xf6][0xca]M[0xdc]2TT[0xe0][0x4][0x81][0x10][0xff]N[0x98][0xba][0x9e][0xfb][0xde][0x7][0xba][0x87][0xde][0x8b]Z>$[0xd8][0x3]R[0xd8][0x12][0xf7][0xec]9[0xac][0x93][0xe7][0x1d][0xf][0xbe][0xd7]D~C[0xb1]A[0x8c]A[0x1b][0x16]XAgYr[0xb1]vNZO[0x84][0xb8][0xd8]E_[0xb9][0xda][0xf9][0xb8][0xd0]I[0xcd]d[0xfc]/[0xdb][0xab][0xdc]F5g[0xf2][0xd4][0xe4][0xac][0xc4]X[0xd3]P[0xa6][0xe9][0xed][0xe0][0xfb][0x3]B[0xfc]:C[0x8b][0x0][0x0][0x0]"
+16:39:30,119 DEBUG io.restassured.internal.RequestSpecificationImpl$RestAssuredHttpBuilder<strong>{1}</strong>:547 - Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+16:39:30,119 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:200 - Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@226642a5
+16:39:30,119 DEBUG org.apache.http.impl.conn.BasicClientConnectionManager<strong>{1}</strong>:225 - Connection can be kept alive for 5000 MILLISECONDS
+16:39:30,119 DEBUG devpinoyLogger<strong>{1}</strong>:44 - Responsee:: {"_requestId":"028624b4-481d-474f-bed2-32c500c8e54a","_statusCode":"200","_statusText":"OK","_statusMessage":"Changes saved successfully "}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Test_suite]">
+  <test name="Api_Automation(failed)">
+    <classes>
+      <class name="test.java.Api_Automation_PUT">
+        <methods>
+          <include name="Automation_test_PUT"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- test.java.Api_Automation_PUT -->
+    </classes>
+  </test> <!-- Api_Automation(failed) -->
+</suite> <!-- Failed suite [Test_suite] -->

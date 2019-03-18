@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- <suite name="Test"> <test name="Api_Automation"> <classes> <class name="test.java.Api_Automation_PUT" 
+	/> </classes> </test> </suite> -->
+<suite name="Profile">
+	<test name="verify_AddressApi">
+		<classes>
+			<class name="test.modules.profile.AddressTest" />
+		</classes>
+	</test>
+</suite>
